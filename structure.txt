@@ -65,3 +65,4 @@ travelPlanner/
 │-- tailwind.config.js
 │-- tsconfig.json
 │-- structure.txt
+hi
