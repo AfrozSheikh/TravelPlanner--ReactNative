@@ -1,0 +1,67 @@
+backend 
+travel-planner-backend/
+├── node_modules/              # Dependencies
+├── src/
+│   ├── config/
+│   │   ├── db.js              # MongoDB connection
+│   │   ├── osrm.js            # OSRM API Integration
+│   ├── controllers/
+│   │   ├── authController.js  # User authentication
+│   │   ├── travelController.js # Source, destination, and routes
+│   │   ├── transportController.js # Transport options handling
+│   │   ├── hotelController.js  # Hotel booking redirections
+│   │   ├── profileController.js # Profile management
+│   │   ├── aiController.js     # Google Gemini AI for tourist places
+│   ├── models/
+│   │   ├── User.js            # User model
+│   │   ├── Travel.js          # Source & Destination model
+│   │   ├── Transport.js       # Transport selection model
+│   │   ├── Hotel.js           # Hotel selection model
+│   │   ├── Sponsor.js         # Sponsor model
+│   ├── routes/
+│   │   ├── authRoutes.js      # Routes for authentication
+│   │   ├── travelRoutes.js    # Routes for travel data
+│   │   ├── transportRoutes.js # Routes for transport
+│   │   ├── hotelRoutes.js     # Routes for hotels
+│   │   ├── profileRoutes.js   # Routes for profile
+│   │   ├── aiRoutes.js        # Routes for AI tourist places
+│   ├── middleware/
+│   │   ├── authMiddleware.js  # JWT authentication middleware
+│   ├── utils/
+│   │   ├── currencyConverter.js  # Currency conversion utility
+│   ├── server.js              # Main entry point
+│   ├── .env                   # Environment variables
+├── package.json               # Dependencies & scripts
+├── .gitignore                 # Ignore files
+└── README.md  
+.
+
+
+
+
+
+
+
+
+travelPlanner/
+│-- .expo/
+│-- app/
+│   │-- _layout.jsx
+│   │-- index.js
+│-- assets/
+│   │-- fonts/
+│   │-- images/
+│-- node_modules/
+│-- .gitignore
+│-- app.json
+│-- babel.config.js
+│-- expo-env.d.ts
+│-- global.css
+│-- metro.config.js
+│-- nativewind-env.d.ts
+│-- package-lock.json
+│-- package.json
+│-- README.md
+│-- tailwind.config.js
+│-- tsconfig.json
+│-- structure.txt
